@@ -1,0 +1,36 @@
+<?php 
+//session_start();
+
+function render_submenu(&$mxml, &$category)
+{
+  print("<fieldset id='order'>");
+  print("Menu Category: " . $category . "<br />");
+	//	print('<form action="" method="post"> <fieldset id="order">');
+	print('<form action="" method="post">');
+
+	// display only menu categories which were selected  by the
+  // user -- category[@name='$category']
+  foreach 
+  ($mxml->xpath("/menu/category[@name='$category']/item") as $item)
+  {
+    		print "&#10003;&nbsp;&nbsp;&nbsp;Qty";
+    		print "<br />Item: " . $item['type'] . "<br />";
+    		foreach($item->price as  $order)
+	  		{ 
+          print('<input type="checkbox" name="' . 
+				  $item['type'] . $order['size']. '"' . 
+					 " value='" . $item['type'] .",". $order['size'] .
+								"," . $order  . "'>");
+ 		   		print($order['size'] .' $'.  number_format($order/100,2) ."    ");
+          print  "<br /><br />";
+   			}
+  }
+  print '<br /><input type="submit" value="Add to Order" />';
+	//  print("</fieldset></form><br />");
+	print("</form><br />");
+	print("</fieldset>");
+
+}
+
+
+?>

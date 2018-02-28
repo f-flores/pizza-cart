@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+  <category name="Pizzas">
+    <item type="Tomato &amp; Cheese">
+      <price>
+	<small>550</small>
+	<large>975</large>
+      </price>
+      <description>
+	<![CDATA[ <h2>Tomato and Cheese</h2>
+           <img src="imgs/tmt_cheese.jpg" alt="Tomato and cheese">
+	]]>
+      </description>
+    </item>
+    <item type="Onions">
+      <price>
+	<small>685</small>
+	<large>1085</large>
+      </price>
+      <description>
+	<![CDATA[ <h2>Onion</h2>
+           <img src="imgs/onion.jpg" alt="Onion Pizza">
+	]]>
+      </description>
+    </item>
+  </category>
+  <category name="Specialty Pizzas">
+    <item type="Three Aces Special">
+      <price>
+	<small>980</small>
+	<large>1580</large>
+      </price>
+      <description>
+	<![CDATA[ <h2>Three Aces Special</h2>
+           <img src="imgs/th_a_special.jpg" alt="Three Aces Special">
+	]]>
+      </description>
+    </item>
+    <item type="Mediterranean">
+      <price>
+	<small>980</small>
+	<large>1580</large>
+      </price>
+     <description>
+	<![CDATA[ <h2>Mediterranean</h2>
+           <p>Sliced Tomatoes, Olives, Spinach, Fresh Garlic,
+	   Mozarella and Feta Cheese</p>
+           <img src="imgs/mediterranean.jpg" alt="Mediterranean">
+	]]>
+      </description>
+    </item>
+  </category>
+  <category name="Special Dinners">
+    <item type="Chicken Wing Dinner">
+      <price>
+	<regular>725</regular>
+      </price>
+     <description>
+	<![CDATA[ <h2>Chicken Wing Dinner</h2>
+           <img src="imgs/cw_dinner.jpg" alt="Chicken Wing Dinner">
+	]]>
+      </description>
+    </item>
+    <item type="Gyro Plate">
+      <price>
+	<regular>725</regular>
+      </price>
+     <description>
+	<![CDATA[ <h2>Gyro Plate</h2>
+           <img src="imgs/gyro.jpg" alt="Gyro Plate">
+	]]>
+      </description>
+    </item>
+  </category>
+</menu>

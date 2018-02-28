@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteBase /
+RewriteRule ^menu/(.*)$ index.php?menu_page=$1 [NC,L]
+
+

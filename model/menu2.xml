@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+  <category name="Pizzas">
+    <item type="Tomato &amp; Cheese Pizza">
+      <price size="small">550</price>
+      <price size="large">975</price>
+      <description>
+	<![CDATA[ <h2>Tomato and Cheese Pizza</h2>
+           <img src="imgs/tmt_cheese.jpg" alt="Tomato and cheese">
+	]]>
+      </description>
+    </item>
+    <item type="Onions Pizza">
+      <price size="small">685</price>
+      <price size="large">1085</price>
+      <description>
+	<![CDATA[ <h2>Onion</h2>
+           <img src="imgs/onion.jpg" alt="Onion Pizza">
+	]]>
+      </description>
+    </item>
+    <item type="Hawaiian Pizza">
+      <price size="small">795</price>
+      <price size="large">1180</price>
+      <description>
+	<![CDATA[ <h2>Hawaiian</h2>
+           <img src="imgs/hawaiian.jpg" alt="Hawaiian Pizza">
+	]]>
+      </description>
+    </item>
+  </category>
+  <category name="Specialty Pizzas">
+    <item type="Three Aces Special">
+      <price size="small">980</price>
+      <price size="large">1580</price>
+      <description>
+	<![CDATA[ <h2>Three Aces Special</h2>
+           <img src="imgs/th_a_special.jpg" alt="Three Aces Special">
+	]]>
+      </description>
+    </item>
+    <item type="Mediterranean Pizza">
+      <price size="small">980</price>
+      <price size="large">1580</price>
+      <description>
+	<![CDATA[ <h2>Mediterranean</h2>
+           <p>Sliced Tomatoes, Olives, Spinach, Fresh Garlic,
+	   Mozarella and Feta Cheese</p>
+           <img src="imgs/mediterranean.jpg" alt="Mediterranean">
+	]]>
+      </description>
+    </item>
+    <item type="Vegetarian Pizza">
+      <price size="small">980</price>
+      <price size="large">1580</price>
+      <description>
+	<![CDATA[ <h2>Vegetarian</h2>
+           <img src="imgs/vegetarian_pz.jpg" alt="Vegetarian Pizza">
+	]]>
+      </description>
+    </item>
+  </category>
+  <category name="Special Dinners">
+    <item type="Chicken Wing Dinner">
+      <price size="regular">725</price>
+      <description>
+	<![CDATA[ <h2>Chicken Wing Dinner</h2>
+        <p>All dinners servied with French Fries and Salad</p>
+           <img src="imgs/cw_dinner.jpg" alt="Chicken Wing Dinner">
+	]]>
+      </description>
+    </item>
+    <item type="Gyro Plate">
+      <price size="regular">725</price>
+     <description>
+	<![CDATA[ <h2>Gyro Plate</h2>
+           <img src="imgs/gyro.jpg" alt="Gyro Plate">
+        <p>All dinners servied with French Fries and Salad</p>
+	]]>
+      </description>
+    </item>
+    <item type="Chicken Finger Plate">
+      <price size="regular">725</price>
+     <description>
+	<![CDATA[ <h2>Chicken Finger Plate</h2>
+        <p>All dinners servied with French Fries and Salad</p>
+           <img src="imgs/chicken_finger.jpg" alt="Chicken Finger">
+	]]>
+      </description>
+    </item>
+  </category>
+<category name="Side Orders">
+    <item type="Onion Rings">
+      <price size="small">260</price>
+      <price size="large">295</price>
+      <description>
+	<![CDATA[ <h2>Onion rings</h2>
+           <img src="imgs/o_rings.jpg" alt="Onion Rings">
+	]]>
+      </description>
+    </item>
+    <item type="French Fries">
+      <price size="small">225</price>
+      <price size="large">265</price>
+      <description>
+	<![CDATA[ <h2>French Fries</h2>
+           <img src="imgs/fr_fries.jpg" alt="French Fries">
+	]]>
+      </description>
+    </item>
+    <item type="Chicken Wings">
+      <price size="regular">575</price>
+      <description>
+	<![CDATA[ <h2>Chicken Wings</h2>
+           <img src="imgs/chicken_wings.jpg" alt="Chicken Wings">
+	]]>
+      </description>
+    </item>
+  </category>
+  <category name="Salads">
+    <item type="Garden Salad">
+      <price size="small">350</price>
+      <price size="large">450</price>
+      <description>
+	<![CDATA[ <h2>Garden Salads</h2>
+           <img src="imgs/garden_salad.jpg" alt="Garden Salad">
+	]]>
+      </description>
+    </item>
+    <item type="Greek Salad">
+      <price size="small">450</price>
+      <price size="large">550</price>
+      <description>
+	<![CDATA[ <h2>Greek Salad</h2>
+           <img src="imgs/greek_salad.jpg" alt="Greek Salad">
+	]]>
+      </description>
+    </item>
+    <item type="Antipasto">
+      <price size="small">450</price>
+      <price size="large">550</price>
+      <description>
+	<![CDATA[ <h2>Antipasto</h2>
+           <img src="imgs/antipasto.jpg" alt="Antipasto">
+	]]>
+      </description>
+    </item>
+  </category>
+ <category name="Spaghetti or Ziti">
+    <item type="Spg or Ziti w&#47;Sauce">
+      <price size="regular">540</price>
+      <description>
+	<![CDATA[ <h2>Spaghetti or  Ziti with Sauce</h2>
+        <p></p>
+           <img src="imgs/spg_or_ziti.jpg" alt="Spaghetti Ziti w Sauce">
+	]]>
+      </description>
+    </item>
+    <item type="Spg or Ziti w&#47;Sausage">
+      <price size="regular">725</price>
+     <description>
+	<![CDATA[ <h2>Spg or Ziti with Sausage</h2>
+           <img src="imgs/spg_w_sausage.jpg" alt="Spg or Ziti w Sausage">
+        <p></p>
+	]]>
+      </description>
+    </item>
+    <item type="Spg or Ziti w&#47;Meatballs">
+      <price size="regular">725</price>
+     <description>
+	<![CDATA[ <h2>Spg or Ziti with Meatballs</h2>
+        <p></p>
+         <img src="imgs/spg_w_meatballs.jpg" alt="Spg or Ziti w Meatballs">
+	]]>
+      </description>
+    </item>
+  </category>
+<category name="Homemade Lasagna Ravioli or Manicotti">
+    <item type="M&#47;Lsg&#47;Rv w Veal">
+      <price size="regular">725</price>
+      <description>
+	<![CDATA[ <h2>Homemade Lsg&#47;Mnctti&#47;Rav with Veal</h2>
+        <p>All Pasta Dinners Served with Garlic Bread and Salad</p>
+           <img src="imgs/mct_w_veal.jpg" alt="Lsg-Mcti-Rav w Veal">
+	]]>
+      </description>
+    </item>
+    <item type="M&#47;Lsg&#47;Rv&#47; w Chkn">
+      <price size="regular">725</price>
+     <description>
+<![CDATA[ <h2>Homemade Lsg&#47;Mnctti&#47;Rav with Chicken Cutlet</h2>
+           <img src="imgs/mct_w_chicken.jpg" alt="Lsg-Mcti-Rav  w Chicken">
+        <p>All Pasta Dinners Served with Garlic Bread and Salad</p>
+	]]>
+      </description>
+    </item>
+    <item type="M&#47;Lsg&#47;Rv&#47; w Mushrooms">
+      <price size="regular">725</price>
+     <description>
+<![CDATA[ <h2>Homemade Lsg&#47;Mnctti&#47;Rav with Chicken Mushrooms</h2>
+        <p>All Pasta Dinners Served with Garlic Bread and Salad</p>
+         <img src="imgs/mct_w_mush.jpg" alt="Lsg-Mcti-Rav w Mushrooms">
+	]]>
+      </description>
+    </item>
+  </category>
+  <category name="Homemade Calzones">
+    <item type="Vegetarian Calzone">
+      <price size="large">735</price>
+      <description>
+	<![CDATA[ <h2>Vegetarian Calzone</h2>
+           <img src="imgs/vg_calzone.jpg" alt="Vegetarian Calzone">
+	]]>
+      </description>
+    </item>
+    <item type="Ham &amp; Cheese Calzone">
+      <price size="large">735</price>
+      <description>
+	<![CDATA[ <h2>Ham &amp; Cheese Calzone</h2>
+           <img src="imgs/ham_ch.jpg" alt="Ham and Cheese Calzone">
+	]]>
+      </description>
+    </item>
+    <item type="Grilled Chicken Calzone">
+      <price size="large">735</price>
+      <description>
+	<![CDATA[ <h2>Grilled Chicken Calzone</h2>
+           <img src="imgs/gr_ch_cz.jpg" alt="Grilled Chicken Calzonea">
+	]]>
+      </description>
+    </item>
+  </category>
+  <category name="Wraps">
+    <item type="Turkey Club Wrap">
+      <price size="regular">495</price>
+      <description>
+	<![CDATA[ <h2>Turkey Club Wrap</h2>
+        <p>Turkey,Cheese,Lettuce,Tomato,Onion,Mayo</p>
+           <img src="imgs/turkey_club.jpg" alt="Turkey Club Wrap">
+	]]>
+      </description>
+    </item>
+    <item type="Chicken Cobb Wrap">
+      <price size="regular">495</price>
+      <description>
+	<![CDATA[ <h2>Chicken Cobb Wrap</h2>
+           <p>Grilled Chicken,Bacon,Cheese,Lettuce,Tomato,Onion
+              Honey mustard</p>
+           <img src="imgs/chicken_cobb.jpg" alt="Chicken Cobb Wrap">
+	]]>
+      </description>
+    </item>
+    <item type="Greek Supreme Wrap">
+      <price size="regular">495</price>
+      <description>
+	<![CDATA[ <h2>Greek Supreme Wrap</h2>
+         <p>Feta cheese, Black Olives,Lettuce, Tomato, Onion,
+            Greek dressing</p>
+           <img src="imgs/greek_sup.jpg" alt="Greek Supreme Wrap">
+	]]>
+      </description>
+    </item>
+  </category>
+  <category name="Grinders">
+    <item type="Meatless Grinder">
+      <price size="small">450</price>
+      <price size="large">495</price>
+      <description>
+	<![CDATA[ <h2>Meatless Grinder</h2>
+           <img src="imgs/mtls_grinder.jpg" alt="Meatless Grinder">
+	]]>
+      </description>
+    </item>
+    <item type="Hamburger Grinder">
+      <price size="small">450</price>
+      <price size="large">495</price>
+      <description>
+	<![CDATA[ <h2>Hamburger Grinder</h2>
+           <img src="imgs/hmbg_grinder.jpg" alt="Hamburger Grinder">
+	]]>
+      </description>
+    </item>
+    <item type="Cheeseburger Grinder">
+      <price size="small">475</price>
+      <price size="large">575</price>
+      <description>
+	<![CDATA[ <h2>Cheeseburger Grinder</h2>
+           <img src="imgs/chbg_grinder.jpg" alt="Cheeseburger Grinder">
+	]]>
+      </description>
+    </item>
+  </category>
+</menu>

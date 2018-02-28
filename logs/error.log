@@ -1,0 +1,4 @@
+[Wed Jan 18 21:50:39.629841 2017] [core:alert] [pid 2967] [client 192.168.1.230:51578] /var/www/project0/html/.htaccess: Invalid command 'Rewrite', perhaps misspelled or defined by a module not included in the server configuration
+[Wed Jan 18 21:50:43.930228 2017] [core:alert] [pid 2968] [client 192.168.1.230:51580] /var/www/project0/html/.htaccess: Invalid command 'Rewrite', perhaps misspelled or defined by a module not included in the server configuration
+[Wed Jan 18 21:53:20.328245 2017] [core:alert] [pid 3001] [client 192.168.1.230:51587] /var/www/project0/html/.htaccess: Invalid command 'Rewrite', perhaps misspelled or defined by a module not included in the server configuration
+[Wed Jan 18 21:54:35.457599 2017] [core:alert] [pid 3031] [client 192.168.1.230:51599] /var/www/project0/html/.htaccess: Invalid command 'Rewrite', perhaps misspelled or defined by a module not included in the server configuration

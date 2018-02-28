@@ -1,0 +1,123 @@
+body {
+    background-color: ghostwhite;;
+    font-weight: bold;
+    color: black;
+}
+
+header {
+/*  position: absolute; */
+  top: 0px;
+  padding: 2px 2px;
+  margin: 4px 4px;
+  border: 1px black solid;
+}
+
+h1 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  align: center;
+  text-align: center;
+/*  left: 25%; */
+  padding: 3px 3px;
+  margin: 5px 5px;
+  border: 2px black solid;
+}
+
+nav {
+  padding: 5px;
+  background-color: beige;
+  color: brown;
+  font-weight: bold;
+}
+
+
+fieldset {
+  align: left;
+  width: 30%;
+  background-color: lightblue;
+  border: solid 2px blue;
+}
+
+
+/** 
+ * displays  menu categories with section class set to visible
+ * targets menu categories with fieldset of catmenu
+ */
+
+/** 
+ * hide menu categories by default 
+ * targets menu categories with fieldset of catmenu
+ */
+
+form > section#catmenu > fieldset {
+  display: none;
+  margin: 0px auto;
+}
+
+
+form > section#catmenu > fieldset.visible {
+  display: block;
+  position: relative; 
+  left: -35%;
+  width: 27%;
+  background-color: lightblue;
+  border: solid 2px blue;
+}
+
+
+form > fieldset#cart {
+  position: absolute;
+  top: 16%;
+  right: 0px;
+  align: right;
+  width: 30%;
+  margin-bottom: 3px;
+  padding-bottom: 40px;
+  background-color: lightgray;
+  border: dotted 2px red;
+}
+
+
+fieldset#order {
+  position: absolute;
+  top: 16%;
+  left: 33%;
+  align: left;
+  width: 30%;
+  background-color: ghostwhite;
+  border: solid 4px brown;
+}
+
+/** targets buttons under fieldset with id of "cart" **/
+fieldset.cart_item {
+  position: absolute;
+  align:right;
+  left: 50%;
+  right: 0px;
+  background-color: lightgreen;
+}
+
+button.cart_button {
+  position: absolute;
+  right: 2%;
+  background-color: ghostwhite;
+  padding: 2px 20px;
+  color: navy;
+/**  display: inline-block; **/
+}
+
+
+aside {
+  padding: 5px;
+  background-color: beige;
+  color: brown;
+  font-weight: bold;
+}
